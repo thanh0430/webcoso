@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./thanhtoan.css">
+    <script>
+        var imgs = [
+            'anh/anh140.jpg',
+            'anh/anh42.jpg',
+            'anh/anh43.jpg',
+            'anh/anh44.jpg'
+        ];
+
+        function chuyen_anh(idx) {
+            var imgUrl = imgs[idx - 1];
+            var imgSlide = document.getElementById('imgSlide');
+            imgSlide.setAttribute('src', imgUrl);
+            var ulSlide = document.getElementById('slide');
+            var lis = ulSlide.getElementsByTagName('img');
+            for(var i=0; i<lis.length; i++) {
+                lis[i].className = '';
+            }
+            lis[idx - 1].className = 'active';
+        }
+        function soluong(){
+            var a=document.getElementById('qty');
+            
+            
+        }
+
+
+    </script>
+</head>
+<body>
+<div class="thanhtoan">
+    <div class="slite">
+        <ul id="slide">
+            <li>
+                <img   class="active" onclick="chuyen_anh(1)" src="./anh/anh140.jpg">
+            </li>
+            <li>
+                <img   onclick="chuyen_anh(2)" src="./anh/anh42.jpg">
+            </li>
+            <li onclick="chuyen_anh(3)" >
+                <img  src="./anh/anh43.jpg">
+            </li>
+            <li onclick="chuyen_anh(4)" >
+                <img  src="./anh/anh44.jpg">
+            </li>
+        </ul>
+    </div>
+    <div class="slite1">
+        <div>
+            <img id="imgSlide" width="600px" height="600px" src="anh/anh140.jpg" />
+        </div>
+
+    </div>
+    <div class="slite2"> 
+      <h1 class="stile_clor">AIR FORCE 1</h1>
+      <h4 class="stile_clor1"><b>Mã SP</b>: 315122 111, 315115 112, DD8959 100, CW2288 111</h4><br>
+      <h4 class="stile_clor2">3,200,000 đ</h4>
+      <hr>
+      <label for="radio20">
+          <input type="radio" id="radio20" value="2019">
+          
+          <div>39</div>
+          <hr>
+          
+      </label>
+      <div id="a">
+        <button class="bttru" type="button">-</button>
+        <input type="text" id="qty" class="inso" min="1" maxlength="12"  value="1" >
+        <button class="btcong" type="button">+</button>
+    </div>
+    </div>
+</div>
+</body>
+</html>

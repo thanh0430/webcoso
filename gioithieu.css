@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+}
+.body2{
+    height: 3000px;
+    width: 100%;
+    display: flex;
+}
+.bodytrai2{
+    height: 3000px;
+    width: 75%; 
+}
+.bodyphai2{
+    height: 3000px;
+    width: 25%; 
+
+}
+.gioithieu{
+ font-size: 25px;
+ padding-left: 20px;
+}
+.gioithieu2{
+font-size: 17px;
+padding-left: 20px;
+padding-top: 10px;
+}
+.anhgt{
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.gioithieu3{
+    margin-left: 20px;
+    font-size: 19px;
+    padding-top: 10px;
+}
+.anhgt2{
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 600px;
+}

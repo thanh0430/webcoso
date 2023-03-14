@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.body2{
+    height: 3000px;
+    width: 100%;
+    display: flex;
+}
+.bodytrai2{
+    height: 3000px;
+    width: 75%;
+}
+.bodyphai2{
+    height: 3000px;
+    width: 25%;
+}
+.tt{
+    width: 95%;
+    height: 3000px;
+    margin: auto;
+}
+.aa{
+    margin-top: 20px;
+}
+.baohanh{
+    margin-top: 20px;
+}
+.noidung{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.image{
+    width: 1070px;
+    height: 650px;
+}
+.image1{
+    width: 1070px;
+    height: 450px;
+    margin-top: 10px;
+}

@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+
+}
+.header {
+    height: 200px;
+     width: 100%;
+     background-image: url(./head-back.jpg);
+     display: flex;
+ }
+ .header-phai{
+     height: 200px;
+     width: 81%;
+     padding: 0 30px;
+ }
+ .logo{
+     margin-top: 30px;
+     display: flex;
+     float:left;
+     width: 267px;
+     height: 120px;
+ }
+ .container{
+     display: flex;
+    margin-left: 720px;
+     width: 550px;
+     height: 41px;
+     margin-bottom: 50PX;
+     margin-top: 30px;
+ }
+ #lienhe{
+     list-style-type: none;
+     margin-top: 10PX;
+ }
+ #lienhe > li{
+     float:left;
+     line-height: 40px;
+     width: 200px;
+     text-align: center;
+     margin-right: 10px;
+ }
+ #lienhe > li a{
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+ 
+ }
+ li:hover {
+     background-color:yellow  !important;
+   }
+ .headduoi{
+     height: 81px;
+     display: flex;
+     margin-left: 200px;
+     width: 100%;
+ }
+ .menu{
+     width: 70%;
+ }
+ 
+ #lienhe1{
+     list-style-type: none;
+     margin-top: 10PX;
+ }
+ #lienhe1 > li{
+     float:left;
+     line-height: 40px;
+     width: 120px;
+     text-align: center;
+     padding-right: 40px;
+ }
+ #lienhe1 > li a{
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+ }
+.body{
+    height: 1200px;
+    width: 100%;
+    display: flex;
+}
+.bodytrai{
+    height: 1000px;
+    width: 75%;
+}
+.bodyphai{
+    height: 1000px;
+    width: 25%;
+}
+.anhtren{
+    display: flex;
+}
+.b1{
+    border: 1px solid rgb(195, 194, 194);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.anh1{
+    height: 220px;
+    width: 220px;
+ 
+}
+.a1{
+    margin-left: 40px;
+    color: black;
+}
+
+.g1{
+    margin-left: 50px;
+}
+.anhgiua{
+    display: flex;
+}
+.anhduoi{
+    display: flex;
+}
+.b2{
+    margin-top: 40px;
+}
+.anh2{
+    height: 300px;
+    width: 340px;
+}
+.b3{
+    display: flex;
+}
+.anh3{
+    height: 90px;
+    width: 90px;
+    margin-top: 20px;
+}
+.a2{
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+}
+
+
+
+

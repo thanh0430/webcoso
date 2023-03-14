@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+}
+.thanhtoan{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.slite{
+    width: 20%;
+    height: 600px;
+}
+.slite1{
+    width: 40%;
+    height: 600px;
+}
+.slite2{
+    width: 40%;
+    height: 600px;
+}
+
+#slide >li{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 4px;
+}
+#slide >li img{
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;  
+}
+.active{
+    border:    solid 2px black ;
+}
+.stile_clor{
+   margin-left: 20px;
+}
+.stile_clor1{
+    margin-left: 20px;
+    font-size: 20px;
+ }
+ .stile_clor2{
+    margin-left: 20px;
+    font-size: 23px;
+    margin-top:  20px;
+    color: red;
+ }
+
+
+
